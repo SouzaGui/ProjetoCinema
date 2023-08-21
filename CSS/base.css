@@ -1,0 +1,37 @@
+:root{
+    --main-bg-color: rgb(15, 14, 14);
+    --cards-background: rgb(21, 20, 20);
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--main-bg-color);
+}
+
+h1,h2,h3,h4,h5,h6,p, label{
+    color: whitesmoke;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: rgb(241, 61, 61);
+    text-decoration: underline;
+    text-decoration-color: red;
+    font-weight: bold;
+    list-style: none;
+}
+
+
+
+
+
+
+
+th,td {
+    color: white;
+}

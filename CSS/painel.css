@@ -1,0 +1,33 @@
+.main-painel {
+    margin-top: 5rem;
+    position: relative;
+    display: flex;
+    margin-bottom: 6rem;
+  }
+  
+  .menu-lateral--painel {
+    flex: 0.15;
+    flex-direction: column;
+    height: 90vh;
+    background-color: rgb(1, 1, 1);
+  }
+  
+  .links-painel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 2rem 0 2rem 1rem;
+  }
+  
+  .secao-iframe {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    right: 0;
+    bottom: 0;
+  }
+
+
+th, td {
+  padding: 15px 50px 15px 50px;
+}

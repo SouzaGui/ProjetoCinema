@@ -1,0 +1,40 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  max-width: 800px;
+  width: 100%;
+  border: solid 1.5px rgb(233, 12, 12);
+  border-radius: 20px;
+}
+
+.item {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 5px;
+}
+
+.item1 {
+  grid-row: span 2;
+}
+
+.item2,
+.item3 {
+  grid-row: span 1;
+}
+
+.imagem {
+  width: 95%;
+  height: 95%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.EmDestaque {
+  margin-top: 5rem;
+  margin-left: 7rem;
+  width: 60%;
+  height: auto;
+
+}

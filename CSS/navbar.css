@@ -1,0 +1,38 @@
+.navbar {
+    background-color: black;
+}
+
+.logo-navbar {
+    margin-left: 1rem;
+}
+
+.navbar-links {
+    margin-left: 1rem;
+}
+
+.barra-pesquisa {
+    margin-right: 2rem;
+}
+
+.login-sem--logar {
+    margin-right: 10px;
+}
+
+.input-pesquisar {
+    width: 60px;
+    border: 1px solid rgb(37, 130, 74);
+    border-radius: 5px;
+}
+
+.input-pesquisar:hover {
+    border: 1.5px solid rgb(30, 105, 60);
+}
+
+.login {
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.links-navbar {
+    margin: 6px;
+}

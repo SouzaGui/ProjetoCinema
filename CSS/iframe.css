@@ -1,0 +1,21 @@
+.main-cadastro--filme {
+    margin-top: 2rem;
+}
+
+.main-cadastro--funcionario {
+    margin-top: 2rem;
+    
+}
+
+.cadastrar-page--funcionario {
+    display: flex;
+    flex-direction: column;
+}
+
+.secao-iframe iframe {
+    width: 100%;
+    height: 100%;
+    border: none; /* Remove a borda do iframe, se houver */
+}
+  
+

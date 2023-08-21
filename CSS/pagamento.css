@@ -1,0 +1,48 @@
+.form-Pagamento {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.input-pagamento {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    -moz-appearance: none;
+        appearance: none;
+}
+
+.div-pagamento {
+    display: flex;
+    flex-direction: column;
+}
+
+.div-pagamento {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+input[type="number"]:not(.quantidadeIngresso)::-webkit-inner-spin-button,
+input[type="number"]:not(.quantidadeIngresso)::-webkit-outer-spin-button {
+    -webkit-appearance: textfield;
+}
+
+.btn-pagamento {
+    background-color: rgb(67, 155, 67);
+    border: 2px solid;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn-pagamento:hover {
+    font-weight: bold;
+}
+
+.cvv-pagamento {
+    width: 15%;
+}

@@ -1,0 +1,36 @@
+.MenuLateral {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 300px;
+    background-color: var(--cards-background);
+    float:right;
+    margin-top: 7rem;
+    margin-right: 5rem;
+    border: 2px solid rgb(245, 72, 72);
+    border-radius: 6px;
+}
+
+.MenuLateral li a {
+    display: block;
+}
+
+.items-menu--lateral {
+    padding-left: 10px;
+}
+
+.lancamentos {
+    display: inline-flex;
+    align-items: center;
+    padding-bottom: 4rem;
+}
+
+.filme {
+    width: 55px;
+    height: 45px;
+}
+
+.titulo-Lancamento {
+    padding-left: 10px;
+}

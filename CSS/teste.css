@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .vertical-line {
+    width: 2px;
+    height: 90%;
+    background-color: white;
+  }
+  
+  .left-section, .right-section {
+    flex-basis: 50%;
+    height: 100%;
+  }

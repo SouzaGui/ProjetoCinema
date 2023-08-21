@@ -1,0 +1,15 @@
+.newsletter {
+    width: 60%;
+    background-color: var(--cards-background);
+    margin: 3rem 0 5rem 6rem;
+    border-radius: 16px;
+}
+
+.cadastro-Newsletter {
+    margin: 10px 0 10px 0;
+    display: inline-flex;
+}
+
+.inputNome .inputEmail {
+    padding: 15px;
+}

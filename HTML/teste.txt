@@ -1,0 +1,75 @@
+<?php
+
+session_start();
+
+$nomeUsuario = isset($_SESSION['nome_user']) ? $_SESSION['nome_user'] : null;
+$profileUser = isset($_SESSION['profile_user']) ? $_SESSION['profile_user']
+
+require_once "head.php"; 
+require_once "../PHP/conexao.php";
+?>
+
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="../HTML/index.php"><img src="../images/logo-cinema.png" alt="Logo CineMogi" class="logo logo-navbar"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse navbar-links" id="conteudoNavbarSuportado">
+                <ul class="navbar-nav mr-auto">
+                    <!-- <li class="nav-item active">
+                        <a class="links-navbar" href="#">Home<span class="sr-only">(página atual)</span></a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="links-navbar" href="../HTML/index.php#EmCartaz">Em cartaz</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="links-navbar" href="#">Em breve</a>
+                    </li> -->
+                </ul>
+
+                <div class="login">
+               <a href="../HTML/login.php">Entrar</a>     
+                
+                </div>
+
+                
+                <?php
+                
+
+                if (isset($_SESSION['nome_user']) && isset($_SESSION['profile_user'])) {
+                    
+
+                    if ($profile_user == "admin") {
+                        echo '<p class="text-welcome">Olá, ' . $nomeUsuario . '!</p>';
+                        echo '<a href="../php/painel.php" class="link-Logado">Painel Administrativo</a>';
+                    } elseif ($profile_user == "cliente") {
+                        echo '<p class="text-welcome">Olá, ' . $nomeUsuario . '!</p>';
+                        echo '<a href="../php/minha-conta.php" class="link-Logado">Minha conta</a>';
+                        echo '<button type="button" id="mensagem"><img src="../images/sair.png" alt="logout" class="logout"></button>';
+                    }
+                } else {
+                    echo '<a href="../HTML/login.php">Entrar</a>';
+                }
+                ?>
+    <div class="pesquisar-container form-inline my-2 my-lg-0 barra-pesquisa">
+        <input class="form-control mr-sm-2 input-pesquisar" type="text" placeholder="Procurar filme" id="movie-name" aria-label="Pesquisar">
+        <button class="btn-sucesso my-2 my-sm-0" id="pesquisar-btn">Pesquisar</button>
+    </div>
+
+    <div class="container-buscar--filme" id="container-buscar--filme">
+    
+
+        <div id="resultado"></div>
+        <span id="fecharFormulario">&times;</span>
+    </div>
+
+                
+
+                
+            </div>
+            
+        </nav>
+        <hr size="10" color="white">
+    </header>

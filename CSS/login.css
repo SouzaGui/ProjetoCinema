@@ -1,0 +1,86 @@
+.login-e-cadastro {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login {
+    display: inline;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+.divisao--secoes {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.secao-login {
+    width: 50%;
+    height: 60%;
+    margin: 6rem 3rem 3rem 2rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: var(--cards-background)
+    
+}
+
+.titulo-pag--login {
+    margin-left: 1rem;
+}
+
+.img-e-titulo {
+    display: flex;
+    margin: 1rem;
+    justify-content: flex-start;
+}
+
+.btn-seta {
+    width: 15px;
+    align-items: center;
+}
+
+.input-box {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    width: 70%;
+}
+
+input, .input-box, textarea { 
+    margin: 10px;
+    border-radius: 8px;
+    background: rgb(230, 237, 237); 
+}
+
+.form-row {
+    align-items: center;
+    margin: 6px;
+}
+
+.secao-cadastro {
+    width: 50%;
+    height: 60%;
+    margin: 6rem 3rem 3rem 4rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: var(--cards-background)
+}
+
+.btn-pag--login {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+
+
+.vertical-line {
+    width: 2px;
+    height: 80%;
+    background-color: white;
+  }

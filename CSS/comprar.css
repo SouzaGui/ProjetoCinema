@@ -1,0 +1,31 @@
+.form-ingressos{
+    position: absolute;
+    top: 50%;
+    margin-left: 20rem;
+    transform: translate(-50%, -50%);
+}
+
+.assentos {
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -45%);
+}
+
+.img-assentos {
+    width: 450px;
+}
+
+.btn-pagamento:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.filmeSelecionado {
+    background-color: transparent;
+    color: white;
+}
+
+option {
+    background-color: black;
+}

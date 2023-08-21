@@ -1,0 +1,27 @@
+.btn-sucesso {
+    color: white;;
+    background-color: rgba(227, 85, 85, 0.932);
+    height: 35px;
+    border: 1.5px solid rgb(247, 242, 242);
+    border-radius: 4px;
+}
+
+.btn-sucesso:hover {
+    color: white;
+    font-weight: bold;
+    background-color: rgba(199, 49, 49, 0.932);
+    border: 2px solid  rgb(255, 255, 255);;
+}
+
+.btn-erro {
+    color: white;
+    background-color: rgba(220, 59, 59, 0.953);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 4px;
+}
+
+.btn-erro:hover {
+    color: white;
+    background-color: rgba(178, 32, 32, 0.953);
+    border: 2.5px solid rgb(255, 253, 253);
+}
