@@ -17,6 +17,4 @@
 
 * OpenMovieDataBase (OMDB) 
 
-Abaixo segue o vídeo mostrando o resultado final.
-
-<img src="ProjetoCinema/blob/master/images/ProjetoCinemaDemo.mp4">
+#### O vídeo demo do projeto pode ser visto no meu LinkedIn através deste <a>[link](https://www.linkedin.com/feed/update/urn:li:activity:7079488837160173568/)</a>
