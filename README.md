@@ -19,3 +19,4 @@
 
 Abaixo segue o vídeo mostrando o resultado final.
 
+<img src="ProjetoCinema/blob/master/images/ProjetoCinemaDemo.mp4">
